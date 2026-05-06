@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useParams, Navigate, useL
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import { menu } from './menu';
-import { Search, Menu, X, BookOpen, Sun, Moon, ArrowRight, Video, FileText, Cpu, Code, Settings } from 'lucide-react';
+import { Search, Menu, X, BookOpen, Sun, Moon, Video, Cpu, Code, Settings } from 'lucide-react';
 
 const rawMarkdowns = import.meta.glob('./markdowns/*.md', { query: '?raw', import: 'default' });
 
